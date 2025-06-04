@@ -8,7 +8,7 @@
             <strong>配置项文档</strong>
           </template>
           <el-menu-item index="/usage/config-usage">基本用法</el-menu-item>
-          <el-menu-item index="config-options">属性配置</el-menu-item>
+          <el-menu-item index="/usage/config-options">属性配置</el-menu-item>
         </el-sub-menu>
         <el-sub-menu index="2">
           <template #title>

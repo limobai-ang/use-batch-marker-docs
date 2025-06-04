@@ -60,7 +60,7 @@ const initAMap = () => {
     },
     // 开启分批渲染
     sliceRender: true,
-    batchSize: 10,
+    batchSize: 50,
     // 开启边缘优化
     optimizeByBounds: true,
     scheduler: 'idle', // 使用空闲时间渲染

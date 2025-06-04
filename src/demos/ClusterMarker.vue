@@ -2,9 +2,12 @@
 <template>
   <div class="cluster-bubble">
     <div class="cluster-count">{{ items.length }} 个设备</div>
-    <div v-for="item in items" :key="item.id">
-      {{ item.name }} ({{ item.id }})
-    </div>
+    <el-scrollbar height="100px">
+      <div v-for="item in items" :key="item.id">
+        {{ item.name }} ({{ item.id }})
+      </div>
+    </el-scrollbar>
+
   </div>
 </template>
 

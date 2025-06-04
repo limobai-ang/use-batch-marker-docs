@@ -12,6 +12,10 @@ export default createRouter({
         {
           path: 'config-usage',
           component: () => import('@/pages/usage/ConfigUsage.vue')
+        },
+         {
+          path: 'config-options',
+          component: () => import('@/pages/usage/ConfigOptions.vue')
         }
       ]
      }
