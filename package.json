@@ -8,6 +8,10 @@
   },
   "dependencies": {
     "element-plus": "^2.6.1",
+    "highlight.js": "^11.11.1",
+    "markdown-it": "^14.1.0",
+    "shiki": "^3.4.2",
+    "use-batch-marker": "^0.1.2",
     "vue": "^3.4.0",
     "vue-router": "^4.2.5"
   },
