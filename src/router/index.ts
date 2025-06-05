@@ -3,7 +3,7 @@ import Home from '@/pages/home/index.vue'
 import Usage from '@/pages/usage/index.vue'
 
 export default createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/use-batch-marker-docs/'),
   routes: [
     { path: '/', component: Home },
     { path: '/usage', component: Usage,
