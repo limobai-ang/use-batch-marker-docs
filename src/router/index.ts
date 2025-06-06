@@ -6,18 +6,23 @@ export default createRouter({
   history: createWebHistory('/use-batch-marker-docs/'),
   routes: [
     { path: '/', component: Home },
-    { path: '/usage', component: Usage,
+    {
+      path: '/usage', component: Usage,
       redirect: 'usage/config-usage',
       children: [
         {
           path: 'config-usage',
           component: () => import('@/pages/usage/ConfigUsage.vue')
         },
-         {
+        {
           path: 'config-options',
           component: () => import('@/pages/usage/ConfigOptions.vue')
+        },
+        {
+          path: 'api-methods',
+          component: () => import('@/pages/usage/ApiMethods.vue')
         }
       ]
-     }
+    }
   ]
 })

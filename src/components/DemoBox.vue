@@ -4,7 +4,7 @@
       <slot></slot>
     </div>
     <el-collapse v-model="activeNames">
-      <el-collapse-item name="1">
+      <el-collapse-item name="1" title="代码示例" class="border-b">
         <template #icon>
           <div class="flex items-center space-x-2 text-gray-500 text-base">
             <el-icon @click.stop="copy" class="text-gray-500 hover:text-gray-700">
